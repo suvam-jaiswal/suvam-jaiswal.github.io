@@ -1,19 +1,25 @@
-Suvam's Github Page
+# Suvam's Github Page
+
 This repository contains the content for my personal website, which is deployed through GitHub Pages.
 
-Installation
+## Installation
+
 No installation is required for this project.
 
-Usage
-To view the website, simply visit https://suvam-jaiswal.github.io/.
+## Usage
 
-Contributing
+To view the website, simply visit [https://suvam-jaiswal.github.io/](https://suvam-jaiswal.github.io/).
+
+## Contributing
+
 Contributions to this project are not currently being accepted.
 
-License
+## License
+
 This project is licensed under the MIT License.
 
-Credits
+## Credits
+
 This website was created using GitHub Pages and Markdown.
 
 Feel free to customize this template to fit your project's specific needs. Let me know if you have any questions!
