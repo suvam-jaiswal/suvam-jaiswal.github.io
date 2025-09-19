@@ -1,0 +1,34 @@
+{
+  "name": "offline-http-helper",
+  "version": "1.0.0",
+  "description": "Offline-first HTTP helper with observable-style APIs, IndexedDB queueing, and sync events.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "docs",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc --project tsconfig.json",
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "lint": "tsc --noEmit",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "offline",
+    "http",
+    "indexeddb",
+    "observable",
+    "sync"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2"
+  }
+}
