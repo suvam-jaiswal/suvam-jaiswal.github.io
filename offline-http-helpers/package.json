@@ -1,0 +1,43 @@
+{
+  "name": "offline-http-helpers",
+  "version": "1.0.0",
+  "description": "Offline-first HTTP helper streams with IndexedDB persistence and replay.",
+  "keywords": [
+    "offline",
+    "http",
+    "indexeddb",
+    "sync",
+    "observable"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "check": "tsc --noEmit",
+    "test": "npm run check"
+  },
+  "dependencies": {
+    "idb": "^8.0.3",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
