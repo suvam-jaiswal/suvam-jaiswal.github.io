@@ -1,0 +1,6 @@
+node_modules
+/dist
+
+# Editor artifacts
+*.log
+.DS_Store
